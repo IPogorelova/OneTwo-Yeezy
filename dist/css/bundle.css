@@ -1,0 +1,100 @@
+{"version":3,"sources":["general/general.css"],"names":[],"mappings":"AAAA;IACI,oBAAa;IAAb,qBAAa;IAAb,oBAAa;IAAb,aAAa;IACb,YAAY;IACZ,aAAa;IACb,SAAS;AACb","file":"general.css","sourcesContent":["body {\r\n    display: flex;\r\n    width: 100vw;\r\n    height: 100vh;\r\n    margin: 0;\r\n}"]}
+body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+/*# sourceMappingURL=general.css.map */
+
+{"version":3,"sources":["header/header.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;AACtB","file":"header.css","sourcesContent":[".header {\r\n    position: relative;\r\n}"]}
+.header {
+    position: relative;
+}
+/*# sourceMappingURL=header.css.map */
+
+{"version":3,"sources":["header/header__link.css"],"names":[],"mappings":"AAAA;IACI,cAAc;IACd,kBAAkB;IAClB,WAAW;IACX;AAKJ;AAHI;IACI,aAAa;AAChB","file":"header__link.css","sourcesContent":[".header__link {\r\n    display: block;\r\n    position: absolute;\r\n    right: 50px;\r\n    top: 10px;\r\n\r\n    &:after {\r\n        display: none;\r\n     }\r\n}"]}
+.header__link {
+    display: block;
+    position: absolute;
+    right: 50px;
+    top: 10px
+}
+.header__link:after {
+    display: none;
+}
+/*# sourceMappingURL=header__link.css.map */
+
+{"version":3,"sources":["header/header__logo.css"],"names":[],"mappings":"AAAA;IACI,YAAY;IACZ,kBAAkB;IAClB,UAAU;IACV,SAAS;AACb","file":"header__logo.css","sourcesContent":[".header__logo {\r\n    width: 120px;\r\n    position: absolute;\r\n    left: 10px;\r\n    top: 10px;\r\n}"]}
+.header__logo {
+    width: 120px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+/*# sourceMappingURL=header__logo.css.map */
+
+{"version":3,"sources":["header/header__menu.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;IAClB,WAAW;IACX,SAAS;IACT,WAAW;;AAEf","file":"header__menu.css","sourcesContent":[".header__menu {\r\n    position: absolute;\r\n    right: 20px;\r\n    top: 10px;\r\n    width: 19px;\r\n\r\n}"]}
+.header__menu {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 19px;
+
+}
+/*# sourceMappingURL=header__menu.css.map */
+
+{"version":3,"sources":["link/link.css"],"names":[],"mappings":"AAAA;IACI,0CAA0C;IAC1C,eAAe;IACf,qBAAqB;IACrB;AAOJ;AALI;IACI,6CAA6C;IAC7C,kBAAkB;IAClB,YAAY;AAChB","file":"link.css","sourcesContent":[".link {\r\n    font-family: 'Source Sans Pro', sans-serif;\r\n    font-size: 14px;\r\n    text-decoration: none;\r\n    color: #ffffff;\r\n\r\n    &:after {\r\n        content: url(\"../images/arrow-long-icon.svg\");\r\n        position: relative;\r\n        bottom: -3px;\r\n    }\r\n}"]}
+.link {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff
+}
+.link:after {
+    content: url("../images/arrow-long-icon.svg");
+    position: relative;
+    bottom: -3px;
+}
+/*# sourceMappingURL=link.css.map */
+
+{"version":3,"sources":["main/main__description.css"],"names":[],"mappings":"AAAA;IACI,eAAe;AACnB","file":"main__description.css","sourcesContent":[".main__description {\r\n    font-size: 16px;\r\n}"]}
+.main__description {
+    font-size: 16px;
+}
+/*# sourceMappingURL=main__description.css.map */
+
+{"version":3,"sources":["main/main__price.css"],"names":[],"mappings":"AAAA;IACI,eAAe;IACf,sBAAsB;IACtB,kBAAkB;IAClB,cAAc;AAClB","file":"main__price.css","sourcesContent":[".main__price {\r\n    font-size: 10px;\r\n    font-stretch: expanded;\r\n    text-align: center;\r\n    color: #aaaaaa;\r\n}"]}
+.main__price {
+    font-size: 10px;
+    font-stretch: expanded;
+    text-align: center;
+    color: #aaaaaa;
+}
+/*# sourceMappingURL=main__price.css.map */
+
+{"version":3,"sources":["wrapper/wrapper.css"],"names":[],"mappings":";;IAAA;IACI,aAAa;AAcjB;;IAZI;QACI,UAAU;QACV,0CAA0C;QAC1C,8BAAsB;gBAAtB,sBAAsB;IAC1B;;IAEA;QACI,UAAU;QACV,mDAAmD;QACnD,8BAAsB;gBAAtB,sBAAsB;QACtB,6BAA6B;KAChC","file":"wrapper.css","sourcesContent":[".wrapper {\r\n    height: 100vh;\r\n\r\n    &_z-index_top {\r\n        width: 85%;\r\n        background: url(\"../images/Kanye-big.jpg\");\r\n        background-size: cover;\r\n    }\r\n\r\n    &_z-index_bottom {\r\n        width: 15%;\r\n        background: url(\"../images/adidas-yeezy-boost.jpg\");\r\n        background-size: cover;\r\n        background-position-x: center;\r\n     }\r\n}"]}
+
+
+    .wrapper {
+    height: 100vh;
+}
+
+    .wrapper_z-index_top {
+        width: 85%;
+        background: url("../images/Kanye-big.jpg");
+        -webkit-background-size: cover;
+                background-size: cover;
+    }
+
+    .wrapper_z-index_bottom {
+        width: 15%;
+        background: url("../images/adidas-yeezy-boost.jpg");
+        -webkit-background-size: cover;
+                background-size: cover;
+        background-position-x: center;
+     }
+/*# sourceMappingURL=wrapper.css.map */

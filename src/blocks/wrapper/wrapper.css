@@ -1,0 +1,16 @@
+.wrapper {
+    height: 100vh;
+
+    &_z-index_top {
+        width: 85%;
+        background: url("../images/Kanye-big.jpg");
+        background-size: cover;
+    }
+
+    &_z-index_bottom {
+        width: 15%;
+        background: url("../images/adidas-yeezy-boost.jpg");
+        background-size: cover;
+        background-position-x: center;
+     }
+}

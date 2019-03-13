@@ -1,0 +1,12 @@
+.link {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffffff;
+
+    &:after {
+        content: url("../images/arrow-long-icon.svg");
+        position: relative;
+        bottom: -3px;
+    }
+}

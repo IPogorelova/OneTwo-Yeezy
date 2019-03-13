@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello, BEM!</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="dist/css/bundle.css">
+</head>
+<body style="background-color: #777777">
+<div class="wrapper wrapper_z-index_top">
+    <header class="header">
+        <img class="header__logo" src="dist/images/adidas-spezial-logo-sm.png">
+        <a href="#" class="link header__link">Share +</a>
+        <img class="header__menu" src="dist/images/menu-hamburger-icon.svg">
+    </header>
+    <div class="main">
+        <p class="main__description"></p>
+        <div class="main__price"></div>
+    </div>
+    <footer></footer>
+</div>
+<div class="wrapper wrapper_z-index_bottom">
+    <footer></footer>
+</div>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+<script src="dist/js/bundle.js"></script>
+</body>
+</html>
