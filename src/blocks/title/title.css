@@ -1,0 +1,10 @@
+.title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 46px;
+    color: #ffffff;
+    font-weight: 200;
+
+    &_bold {
+        font-weight: 700;
+     }
+}

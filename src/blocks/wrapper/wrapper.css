@@ -1,16 +1,20 @@
 .wrapper {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: relative;
     height: 100vh;
+    overflow-x: hidden;
 
     &_z-index_top {
         width: 85%;
-        background: url("../images/Kanye-big.jpg");
-        background-size: cover;
+        background: #1b1b1b;
+        /*background-size: cover;*/
     }
 
     &_z-index_bottom {
         width: 15%;
-        background: url("../images/adidas-yeezy-boost.jpg");
-        background-size: cover;
-        background-position-x: center;
+         background: #ffffff;
+        /*background-size: cover;
+        background-position-x: center;*/
      }
 }

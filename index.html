@@ -6,24 +6,32 @@
     <title>Hello, BEM!</title>
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="dist/css/bundle.css">
 </head>
-<body style="background-color: #777777">
+
+<body>
 <div class="wrapper wrapper_z-index_top">
+    <img class="wrapper__background-image" src="dist/images/Kanye-big.jpg" alt="Kanye West">
     <header class="header">
-        <img class="header__logo" src="dist/images/adidas-spezial-logo-sm.png">
+        <img class="header__logo" src="dist/images/adidas-spezial-logo-sm.png" alt="Adidas Originals">
         <a href="#" class="link header__link">Share +</a>
-        <img class="header__menu" src="dist/images/menu-hamburger-icon.svg">
+        <button class="header__menu"></button>
     </header>
     <div class="main">
-        <p class="main__description"></p>
-        <div class="main__price"></div>
+        <h1 class="title main__title">Adidas YEEZY new Season 6 Collection by <span class="title_bold">Kanye West</span></h1>
+        <a href="#" class="link main__link">Find to store</a>
     </div>
-    <footer></footer>
+    <footer class="footer"></footer>
 </div>
 <div class="wrapper wrapper_z-index_bottom">
-    <footer></footer>
+    <img class="wrapper__background-image" src="dist/images/adidas-yeezy-boost.jpg" alt="Adidas YEEZY new Season 6 Collection">
+    <footer class="footer"></footer>
 </div>
+<!-- <div class="dragger">
+    <img class="dragger__inner-icon" src="dist/images/hamburger-vert-icon.svg">
+</div> -->
+
 <script src="http://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>

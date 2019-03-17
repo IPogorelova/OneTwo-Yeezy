@@ -1,0 +1,11 @@
+.dragger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: -30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: #2920d8;
+}

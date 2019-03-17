@@ -7,6 +7,7 @@
     &:after {
         content: url("../images/arrow-long-icon.svg");
         position: relative;
-        bottom: -3px;
+        bottom: -1px;
+        left: 12px;
     }
 }
