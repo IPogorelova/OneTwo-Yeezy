@@ -5,7 +5,9 @@ $(function () {
   var leftPartImg = $('.wrapper_z-index_top .wrapper__background-image');
   var rightPart = $('.wrapper_z-index_bottom');
   var rightPartImg = $('.wrapper_z-index_bottom .wrapper__background-image');
+  var mainTitle = $('.main__title');
   var tl = new TimelineMax();
+  mainTitle.addClass('fadeInDown');
   tl.to(leftPart, 1, {
     css: {
       width: '58%'
@@ -29,5 +31,6 @@ $(function () {
     repeatDelay: 4,
     yoyo: true
   }, '-=2');
+  mainTitle.removeClass('fadeInDown').addClass('fadeOutUp');
 });
 //# sourceMappingURL=bundle.js.map
